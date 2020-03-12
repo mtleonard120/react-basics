@@ -12,7 +12,7 @@ Highly sophisticated app (`src/index.js`) finds a root element (`<div id="root">
 
 `ReactDOM`: package which translates the virtual DOM into actual DOM elements. Responsible for performing efficient DOM diffing operations so that only the minimal number of DOM mutations are performed during renders.
 
-`myReactApp`: JS variable of type JSX, a new type which closely resembles HTML but can include JS expressions. Under the hood, Webpack uses Babel to translate JSX into standard JS functions which represent elements in the virtual DOM. E.G. `const myJSX = <div>Hello</div>` is translated into `const myJSX = React.createElement('div', null, 'Hello')`.
+`myReactApp`: JS variable of type JSX, short for JavaScript XML. It is a new type which closely resembles HTML but can include JS expressions. During the compile step, Webpack uses Babel to translate JSX into standard JS functions which create elements in the virtual DOM. E.G. `const myJSX = <div>Hello</div>` is translated into `const myJSX = React.createElement('div', null, 'Hello')`.
 
 `domElement`: Just the DOM element found in `public/index.html` where we wish to mount the react app. `ReactDOM` is responsible for maintaining all of the DOM within the root element but not the root element itself.
 
