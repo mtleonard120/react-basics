@@ -1,4 +1,4 @@
-# 1. Simple App
+# 2. App With Component
 
 Lesson Branch: `2-app-with-component`
 
