@@ -4,3 +4,7 @@ body {
     padding: 0 2rem;
     font-size: 1.25rem;
 }
+
+.counter {
+    margin: 2rem 0;
+}
