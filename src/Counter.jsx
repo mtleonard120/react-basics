@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
 export const Counter = () => {
-    const [value, setValue] = useState(0);
-    const onIncrement = () => setValue(prevVal => prevVal + 1);
+    const [value, setValue] = useState(0)
+    const onIncrement = () => setValue(prevVal => prevVal + 1)
 
     return (
         <div className="counter">
